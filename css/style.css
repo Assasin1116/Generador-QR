@@ -35,3 +35,19 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+#email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-decoration: none;
+}
+img {
+  width: 60px;
+  height: 40px;
+}
+#sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
