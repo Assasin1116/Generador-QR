@@ -29,6 +29,7 @@ button:hover {
   margin-top: 50px;
   text-align: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 #imagen {
   display: flex;
@@ -42,12 +43,27 @@ button:hover {
   margin-top: 20px;
   text-decoration: none;
 }
-img {
-  width: 60px;
-  height: 40px;
+#sociales a {
+  font-size: 30px; /* Tamaño del ícono */
+  margin: 0 15px; /* Espaciado entre los íconos */
+  color: #0077b5; /* Color azul de LinkedIn (puedes cambiar el código hexadecimal por otro tono de azul) */
+  text-decoration: none; /* Elimina el subrayado */
+  transition: color 0.3s ease; /* Animación suave al pasar el ratón */
 }
-#sociales {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+#sociales a:hover {
+  color: #005582; /* Cambia el color al pasar el ratón */
+}
+
+/* Colores específicos para cada red */
+#gmail {
+  color: #d44638; /* Rojo para Gmail */
+}
+
+#github {
+  color: #333; /* Negro para GitHub */
+}
+
+#linkedin {
+  color: #0077b5; /* Azul para LinkedIn */
 }
