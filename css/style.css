@@ -44,26 +44,33 @@ button:hover {
   text-decoration: none;
 }
 #sociales a {
-  font-size: 30px; /* Tamaño del ícono */
-  margin: 0 15px; /* Espaciado entre los íconos */
-  color: #0077b5; /* Color azul de LinkedIn (puedes cambiar el código hexadecimal por otro tono de azul) */
-  text-decoration: none; /* Elimina el subrayado */
-  transition: color 0.3s ease; /* Animación suave al pasar el ratón */
+  font-size: 30px;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  transform: scale(1.1);
 }
 
 #sociales a:hover {
-  color: #005582; /* Cambia el color al pasar el ratón */
+  color: #005582;
+  transform: scale(1.2);
 }
 
-/* Colores específicos para cada red */
 #gmail {
-  color: #d44638; /* Rojo para Gmail */
+  color: #d44638;
 }
 
 #github {
-  color: #333; /* Negro para GitHub */
+  color: #333;
 }
 
 #linkedin {
-  color: #0077b5; /* Azul para LinkedIn */
+  color: #0077b5;
+}
+i:hover {
+  transform: scale(1.1);
+  color: #000;
+}
+#descargar {
+  margin-bottom: 20px;
 }
